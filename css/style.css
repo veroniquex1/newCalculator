@@ -1,0 +1,51 @@
+*, 
+* ::before,
+* ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+table { 
+    border: 2px solid black; 
+    margin-left: auto; 
+    margin-right: auto; 
+    
+} 
+
+#result {
+    background-color: white;
+}
+
+#clear{
+    background-color: rgb(115, 115, 243);
+}
+
+/*Button styling*/
+
+input[type="button"] { 
+    width: 100%; 
+    padding: 20px 40px; 
+    background-color: rgb(174, 116, 229); 
+    color: black; 
+    font-size: 25px; 
+    font-weight: bold; 
+    border: 2px solid black; 
+    border-radius: 5px; 
+} 
+
+input[type="text"] { 
+    padding: 20px 30px; 
+    font-size: 25px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 5px; 
+    border: 2px solid black; 
+} 
